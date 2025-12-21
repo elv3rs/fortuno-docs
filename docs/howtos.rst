@@ -11,3 +11,4 @@ This chapter provides how-to guides on specific topics designed for users who al
 
    howtos/case-fixtures
    howtos/suite-fixtures
+   howtos/discovering-tests

@@ -6,7 +6,7 @@ Fortuno is a flexible and extensible unit testing framework tailored for modern 
 Its name is an acronym for "Fortran Unit-Testing Objects", but also hints at the Esperanto word
 "fortuno" (fortune), symbolizing its goal of bringing success to Fortran developers and to their (hopefully) well tested projects.
 
-Fortuno offers a simple, user-friendly interface requiring only minimal amount of boiler-plate code
+Fortuno offers a simple, user-friendly interface requiring only minimal amount of boilerplate code
 when writing unit tests. It puts strong emphasis on modularity and extensibility, providing a robust
 foundation for creating customized unit testing environments. Fortuno is written in Fortran 2018.
 
@@ -28,5 +28,5 @@ The framework supports a variety of testing styles and scenarios, including:
 * smooth integration with various build systems (`fpm <https://fpm.fortran-lang.org/>`_, `CMake
   <https://cmake.org/>`_ and `Meson <https://mesonbuild.com/>`_).
 
-Fortuno is an open source, community developed project. You can follow and join the development on
+Fortuno is an open-source, community-developed project. You can follow and join the development on
 the `Fortuno project <https://github.com/fortuno-repos/fortuno>`_ page on GitHub.

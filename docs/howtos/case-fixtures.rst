@@ -20,10 +20,10 @@ used during the test are properly released afterward. Common tasks handled by fi
 opening and closing files, managing database connections, or precomputing values required by tests.
 
 Fortuno provides flexible mechanisms for implementing such fixtures. In this section, we will
-explore two main approaches: a **manual fixture** and an **automatic fixture**. We’ll start with a
+explore two main approaches: a **manual fixture** and an **automatic fixture**. We'll start with a
 basic example and then move toward the more sophisticated setup.
 
-Throughout the examples, we’ll simulate a temporary file environment. The setup phase will involve
+Throughout the examples, we'll simulate a temporary file environment. The setup phase will involve
 creating and opening a temporary file, while the teardown will consist of closing and cleaning up
 the file. Each test will receive both the file name and its corresponding unit number as input
 parameters. To generate random file names, we use the following simple helper function:
@@ -78,9 +78,9 @@ To implement an automatic fixture, we modify the standard testing pattern in two
   ensuring consistency and reducing boilerplate code.
 
 Thanks to Fortuno's object-oriented architecture, integrating these changes is
-straightforward. Let’s walk through the required steps:
+straightforward. Let's walk through the required steps:
 
-* In Fortuno’s default setup, the ``serial_case`` type is used to represent test cases. This type
+* In Fortuno's default setup, the ``serial_case`` type is used to represent test cases. This type
   extends a base type called ``serial_case_base`` and adds a pointer to a no-argument test
   procedure. Additionally, the ``run()`` method of the base type is overridden to invoke this
   argumentless procedure when the test is executed.

@@ -2,6 +2,9 @@
 Quickstart (using fpm)
 **********************
 
+.. note::
+   Using a different build system? Check out the quickstart guides for :doc:`CMake <quickstart-cmake>` and :doc:`Meson <quickstart-meson>`.
+
 .. admonition:: You will learn to
    :class: note
 
@@ -81,5 +84,5 @@ Congratulations! You've now implemented and completed your first set of Fortuno 
 assessing your project's integrity.
 
 .. seealso::
-   * Section :ref:`sec-understanding_key-concepts` contains a detailed analyzis of this minimal test
+   * Section :ref:`sec-understanding_key-concepts` contains a detailed analysis of this minimal test
      application and also more information on some key concepts.

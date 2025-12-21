@@ -2,6 +2,9 @@
 Quickstart (using Meson)
 ************************
 
+.. note::
+   Using a different build system? Check out the quickstart guides for :doc:`fpm <quickstart-fpm>` and :doc:`CMake <quickstart-cmake>`.
+
 .. admonition:: You will learn to
    :class: note
 
@@ -89,14 +92,14 @@ Finally we run the unit tests by invoking meson again:
 The expected output will show a test failure for the test application. The verbose output reveals that the test app launched three unit tests in total, one of them failing.
 
 .. literalinclude:: quickstart.data/testapp.meson.out
-   :caption: Output of the "ctest" command
+   :caption: Output of the "meson test" command
    :language: output
 
 Congratulations! You've now implemented and completed your first set of Fortuno unit tests,
 assessing your project's integrity.
 
 .. seealso::
-   * Section :ref:`sec-understanding_key-concepts` contains a detailed analyzis of this minimal test
+   * Section :ref:`sec-understanding_key-concepts` contains a detailed analysis of this minimal test
      application and also more information on some key concepts.
 
    * For real projects, consider to use the `Fortran project cookiecutter template

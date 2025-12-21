@@ -2,6 +2,9 @@
 Quickstart (using CMake)
 ************************
 
+.. note::
+   Using a different build system? Check out the quickstart guides for :doc:`fpm <quickstart-fpm>` and :doc:`Meson <quickstart-meson>`.
+
 .. admonition:: You will learn to
    :class: note
 
@@ -78,9 +81,9 @@ Finally we run the unit tests by invoking CTest:
 
 .. code-block:: shell
 
-   ctest --test-dir build --verbsose
+   ctest --test-dir build --verbose
 
-The expected output will show a test failure for the test application. The verbose output reveals that the test app launched three unit tests in total, one of them failing.
+The output reveals that three unit tests were discovered and executed independently, with one of them failing.
 
 .. literalinclude:: quickstart.data/testapp.cmake.out
    :caption: Output of the "ctest" command
@@ -90,7 +93,7 @@ Congratulations! You've now implemented and completed your first set of Fortuno 
 assessing your project's integrity.
 
 .. seealso::
-   * Section :ref:`sec-understanding_key-concepts` contains a detailed analyzis of this minimal test
+   * Section :ref:`sec-understanding_key-concepts` contains a detailed analysis of this minimal test
      application and also more information on some key concepts.
 
    * For real projects, consider to use the `Fortran project cookiecutter template

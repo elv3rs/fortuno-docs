@@ -20,4 +20,4 @@ add_executable(testapp test/testapp.f90)
 target_link_libraries(testapp PRIVATE mylib Fortuno::fortuno_serial)
 
 enable_testing()
-add_test(NAME testapp COMMAND testapp)
+fortuno_discover_tests(testapp)

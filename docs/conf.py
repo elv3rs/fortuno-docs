@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Fortuno'
-copyright = '2025, Fortuno documentation authors'
+copyright = '2026, Fortuno documentation authors'
 author = 'Fortuno authors'
 
 # -- General configuration ---------------------------------------------------
@@ -15,6 +15,7 @@ author = 'Fortuno authors'
 
 extensions = [
     'sphinx_copybutton',
+    'sphinx_design',
 ]
 
 templates_path = ['_templates']
@@ -25,8 +26,6 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'sphinx_book_theme'
-
-html_static_path = ['_static']
 
 html_theme_options = {
     "repository_url": "https://github.com/fortuno-repos/fortuno-docs",

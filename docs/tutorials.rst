@@ -1,11 +1,10 @@
 .. _sec-tutorials:
 
-#########
-Tutorials
-#########
+#################
+Quickstart Guides
+#################
 
-This part contains tutorials for some of the basic tasks often performed when using Fortuno. This is
-the best place to start if you are new to Fortuno.
+This part contains quickstart guides for setting up Fortuno with different build systems. This is the best place to start if you are new to Fortuno.
 
 .. toctree::
    :maxdepth: 1

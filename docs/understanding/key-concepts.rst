@@ -39,7 +39,7 @@ So what happened here?
 
 First of all, we defined a module for the tests and a program which drives the testing. It is
 generally a good practice to separate the unit tests from the driver program as one driver program
-might be reponsible for driving tests from multiple modules. The test module contains the function
+might be responsible for driving tests from multiple modules. The test module contains the function
 ``tests()``, which returns the list of the unit tests it wants to expose.
 
 In the test module, we have imported following objects:
@@ -51,7 +51,7 @@ In the test module, we have imported following objects:
 * ``is_equal``: Function to check the equality of two objects returning detailed information about
   the check.
 
-* ``serial_case_item``: Function returing a wrapped test case object for serial tests. The ``_item``
+* ``serial_case_item``: Function returning a wrapped test case object for serial tests. The ``_item``
   suffix indicates that this is a wrapper allowing to use the test case object as an item (an
   element) of an array. We have introduced the abbreviation ``test`` for this rather longish name.
 

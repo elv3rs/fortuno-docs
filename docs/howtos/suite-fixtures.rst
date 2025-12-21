@@ -23,7 +23,7 @@ before a certain group of tests accessing that data can be executed.
 Those cases can be handled in Fortuno using suite fixtures. Test suites in Fortuno have basically
 two functions:
 
-* They serve as containers for building hierarchical test inftrastructure, each suite containing
+* They serve as containers for building hierarchical test infrastructure, each suite containing
   tests and further test suites.
 
 * They can be extended to contain customized data and customized set-up and tear-down
@@ -36,9 +36,9 @@ For demonstration purposes we will modify the example from the previous section:
 before a group of test is executed, and close it, once the tests had been carried out. The
 information about the name of the file and the file unit should be passed to the tests. As
 demonstrated below, there are two ways of passing data to individual tests of a suite: either by
-using global module variables or using type components introduced by type extension. Former is
+using global module variables or using type components introduced by type extension. The former is
 considerably simpler, but prone to accidental errors, especially when using with complex test
-hierarchies. Latter needs somewhat more coding, but is is modular and robust.
+hierarchies. The latter needs somewhat more coding, but is modular and robust.
 
 
 Storing suite data in module variables
